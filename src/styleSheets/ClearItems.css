@@ -1,0 +1,23 @@
+.clearItems-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  max-width: 500px;
+  height: 60px;
+  margin: 0 auto 100px;
+  padding: 3rem;
+  background-color: var(--VeryDarkDesaturatedBlue);
+  border-radius: 0 0 4px 4px;
+}
+
+.clearItems-container .items-uncompleted {
+  font-size: 1.5rem;
+  color: var(--ClearItems);
+}
+
+.clearItems-container .clear-completed {
+  font-size: 1.5rem;
+  color: var(--ClearItems);
+  cursor: pointer;
+}

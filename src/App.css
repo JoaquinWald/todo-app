@@ -1,41 +1,47 @@
-#root {
-  max-width: 1280px;
+:root {
+  /* Primary */
+  --BrightBlue: hsl(220, 98%, 61%);
+  --CheckBackground: linear-gradient #57ddff to #c058f3;
+
+  /* Dark Theme */
+  --VeryDarkBlue: hsl(235, 21%, 11%);
+  --VeryDarkDesaturatedBlue: hsl(235, 24%, 19%);
+  --LightGrayishBlue: hsl(234, 39%, 85%);
+  --LightGrayishBlueHover: hsl(236, 33%, 92%);
+  --DarkGrayishBlue: hsl(234, 11%, 52%);
+  --VeryDarkGrayishBlue: hsl(233, 14%, 35%);
+  --VeryDarkGrayishBlue2: hsl(237, 14%, 26%);
+  --ClearItems: hsl(217deg 10% 39%);
+
+  /* Light Theme */
+  --VeryLightGray: hsl(0, 0%, 98%);
+  --VeryLightGrayishBlue: hsl(236, 33%, 92%);
+  --LightGrayishBlue: hsl(233, 11%, 84%);
+  --DarkGrayishBlue: hsl(236, 9%, 61%);
+  --VeryDarkGrayishBlue: hsl(235, 19%, 35%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-width: 320px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  color: white;
+  background-color: var(--VeryDarkBlue);
+  font-size: 62.5%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.tareas-lista-principal {
+  position: relative;
+  /* width: 100vw; */
+  /* top: 80px; */
+  width: 100%;
+  top: 0;
 }

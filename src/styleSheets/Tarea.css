@@ -1,0 +1,80 @@
+/* .tarea-container {
+  width: 300px;
+  min-height: 55px;
+  margin: 0 auto;
+  background-color: var(--VeryDarkDesaturatedBlue);
+  margin: 5px 0;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+} */
+
+/* Tarea incompleta */
+
+.tarea-container {
+  width: 90vw;
+  max-width: 500px;
+  min-height: 55px;
+  margin: 0 auto;
+  padding: 20px 15px 20px 20px;
+  border-radius: 3px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--VeryDarkDesaturatedBlue);
+  cursor: pointer;
+  border-bottom: 1px solid var(--VeryDarkGrayishBlue2);
+}
+
+.check-circle {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: solid 1px var(--VeryDarkGrayishBlue);
+}
+
+/* Tarea completa */
+
+.complete {
+  width: 90vw;
+  max-width: 500px;
+  min-height: 55px;
+  border-radius: 3px;
+  margin: 0 auto;
+  padding: 20px 15px 20px 20px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--VeryDarkDesaturatedBlue);
+  text-decoration: line-through;
+  color: var(--VeryDarkGrayishBlue);
+  cursor: pointer;
+  border-bottom: 1px solid var(--VeryDarkGrayishBlue2);
+}
+
+.check-circle-colored {
+  padding: 11px;
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/icon-check.svg');
+  background-size: unset;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: #c058f3;
+}
+
+.tarea-text {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  overflow-wrap: anywhere;
+}

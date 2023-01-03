@@ -1,0 +1,14 @@
+.todo-container {
+  display: flex;
+  /* position: relative; */
+  /* text-align: center;
+  justify-content: center; */
+}
+
+.todo-text {
+  position: absolute;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+  top: 20rem;
+  right: 20rem;
+}

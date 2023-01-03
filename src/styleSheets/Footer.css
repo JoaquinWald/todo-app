@@ -1,0 +1,27 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  max-width: 500px;
+  min-height: 55px;
+  margin: 0 auto;
+  position: relative;
+  bottom: 80px;
+  border-radius: 5px;
+  background-color: var(--VeryDarkDesaturatedBlue);
+}
+
+
+.h3-container {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.h3-container,
+h3 {
+  font-size: 1.5rem;
+  color: var(--ClearItems);
+  cursor: pointer;
+}
