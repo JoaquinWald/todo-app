@@ -5,11 +5,10 @@ export const Footer = ({ all, active, completed }) => {
   return (
     <footer>
       <div className='h3-container'>
-        {/* <h3
-          className='all-item'
-          onClick={() => all()}>
+        <h3
+          className='all-item'>
           All
-        </h3> */}
+        </h3>
         <h3
           className='active-item'
           onClick={() => active()}>
